@@ -9,8 +9,13 @@
   </head>
 
   <body>
+    <div class="homelinks">
     <%= render 'layouts/navigation' %>
     <%= render 'layouts/messages' %>
-    <%= yield %>
+  </div>
+    <div class="container">
+      <%= yield %>
+    </div>
+    <%= render 'layouts/footer' %>
   </body>
 </html>
